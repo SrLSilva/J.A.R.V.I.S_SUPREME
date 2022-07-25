@@ -3,7 +3,7 @@
 //ENGLISH//
 
 Hi.
-This is Jarvis Assistant Supreme, I created it to help me in the pandemic days. I was tired of searching the sites i wanted to go so i decided to use my young programming skills to develop a simple assistant made just with html. Well, it was a year ago. Now I created a html.css.jv. assistant, still simple, but way much better. I used the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> to command with just click and a voice command. I don't now how to create a localhost server so the assistant will be asking every time for the permission to use the mic. I hope you guys improve and enjoy it.
+This is Jarvis Assistant, I created it to help me in the pandemic days. I was tired of searching the sites i wanted to go so i decided to use my young programming skills to develop a simple assistant made just with html. Well, it was a year ago. Now I created a html.css.jv. assistant, still simple, but way much better. I used the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> to command with just click and a voice command. I don't now how to create a localhost server so the assistant will be asking every time for the permission to use the mic. I hope you guys improve and enjoy it.
 Here's the list of sites and how to go to them:
 
 -Classroom- say "open classroom";
@@ -48,7 +48,7 @@ Here's the list of sites and how to go to them:
 
 //PORTUGUÊS//
 
-Olá. Este é o Jarvis Assistant Supreme, eu criei-o para me ajudar nos dias da pandemia. Estava cansado de procurar nos sites que queria ir, então decidi usar minhas humildes habilidades de programação para desenvolver um simples assistente feito apenas com html. Bem, isso foi há um ano atrás. Agora eu criei um assistente html.css.JV., ainda simples, mas muito melhor. Usei a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> para acessar com apenas um clique e um comando de voz. Eu não sei como criar um servidor (localhost), então o assistente vai pedir sempre a permissão para usar o microfone. Espero que vocês melhorem e aproveitem. Aqui está a lista de sites e como ir até eles:
+Olá. Este é o Jarvis Assistant, eu criei-o para me ajudar nos dias da pandemia. Estava cansado de procurar nos sites que queria ir, então decidi usar minhas humildes habilidades de programação para desenvolver um simples assistente feito apenas com html. Bem, isso foi há um ano atrás. Agora eu criei um assistente Jarvis html.css.JV., ainda simples, mas muito melhor. Usei a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> para acessar com apenas um clique e um comando de voz. Eu não sei como criar um servidor (localhost), então o assistente vai pedir sempre a permissão para usar o microfone. Espero que vocês melhorem e aproveitem. Aqui está a lista de sites e como ir até eles:
 
 -Classroom- diga "abrir classroom";
 
