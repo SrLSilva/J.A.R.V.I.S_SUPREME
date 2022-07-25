@@ -1,0 +1,170 @@
+<html lang='pt'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis Assistant</title>
+    
+    <link rel="icon" href="jarvis-icon.ico">
+    
+    <style type="text/css">
+
+      .pulse {
+  animation: pulse 2s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 5px;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -webkit-filter: brightness(100%);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+    -webkit-filter: brightness(170%);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  100% {
+    transform: scale(1.1);
+    filter: brightness(170%);
+  }
+}  
+        
+body {
+     background-image: url(./bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 10vh;
+      }
+
+
+div {
+  height: 450px;
+  position: relative;
+}
+
+    </style>
+    
+  </head>
+<body>
+    <div>
+        <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            var speakBtn = document.querySelector('#speakBtn');
+
+            // testa se o navegador suporta o reconhecimento de voz
+            if (window.SpeechRecognition || window.webkitSpeechRecognition) {
+
+                // captura a voz
+                var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+
+                var recognition = new SpeechRecognition();
+
+                // inicia o reconhecimento de voz
+                document.body.onclick = function() {
+                recognition.start();
+                }
+
+                // resultado do reconhecimento -> resultado ::
+                recognition.addEventListener('result', function(e) {
+                    console.log(e);
+                    var result = e.results[0][0].transcript;
+                    console.log(result);
+                    if (result.toLowerCase() === 'abrir classroom') {
+                        window.open('http://classroom.google.com/a/not-turned-in/all');
+                    }
+                    if (result.toLowerCase() === 'abrir youtube') {
+                        window.open('http://youtube.com');
+                    }
+                    if (result.toLowerCase() === 'abrir alura') {
+                        window.open('https://cursos.alura.com.br/dashboard');
+                    }
+                    if (result.toLowerCase() === 'abrir scratch') {
+                        window.open('https://scratch.mit.edu/mystuff/');
+                    }
+                    if (result.toLowerCase() === 'abrir pj') {
+                        window.open('https://editor.p5js.org/');
+                    }
+                    if (result.toLowerCase() === 'abrir meu repositório') {
+                        window.open('https://github.com/repositories');
+                    }
+                    if (result.toLowerCase() === 'abrir whatsapp') {
+                        window.open('https://web.whatsapp.com/');
+                    }
+                    if (result.toLowerCase() === 'abrir facebook') {
+                        window.open('https://facebook.com');
+                    }
+                    if (result.toLowerCase() === 'abrir instagram') {
+                        window.open('https://www.instagram.com');
+                    }
+                    if (result.toLowerCase() === 'abrir twitter') {
+                        window.open('https://twitter.com');
+                    }
+                    if (result.toLowerCase() === 'abrir twitch') {
+                        window.open('https://www.twitch.tv');
+                    }
+                    if (result.toLowerCase() === 'abrir red') {
+                        window.open('https://reddit.com');
+                    }
+                    if (result.toLowerCase() === 'abrir perda de tempo') {
+                        window.open('https://tiktok.com');
+                    }
+                    if (result.toLowerCase() === 'abrir topflix') {
+                        window.open('https://topflix.fm');
+                    }
+                    if (result.toLowerCase() === 'abrir netflix') {
+                        window.open('https://netflix.com');
+                    }
+                    if (result.toLowerCase() === 'abrir amazon') {
+                        window.open('https://amazon.com');
+                    }
+                    if (result.toLowerCase() === 'abrir discord') {
+                        window.open('https://discord.com/channels/@me');
+                    }
+                    if (result.toLowerCase() === 'abrir gmail') {
+                        window.open('https://mail.google.com/mail/u/0/?ogbl#inbox');
+                    }
+                    if (result.toLowerCase() === "hora de programar") {
+                    window.open('https://www.youtube.com/watch?v=1w7OgIMMRc4&list=PLcKfEVx1f0xRSP7uZ5HCycN8BdDsAUHwK&ab_channel=GunsNRosesVEVO');
+                    }
+                    if (result.toLowerCase() === 'abrir curso para o enem') {
+                        window.open('https://www.stoodi.com.br/materias/');
+                    }
+                    if (result.toLowerCase() === 'abrir curso de inglês') {
+                    window.open('https://inglesparana.ef.com/school/studyplan?icid=School.StudyPlan.2013#study/dad5a0b7-964a-4d6b-b51e-d5e4ae40f915/3ff513dc-ea61-4dfe-bec8-6a93ad005717');
+                    }
+                    
+                    //if (result.toLowerCase() === 'aqui você coloca a frase de ativação') {
+                    //window.open('aqui você coloca o link da página correspondente - formato "https://" ');
+                    //}
+                    
+                }, false);
+            } else {
+                alert('Desculpe, parece que seu navegador não suporta J.A.R.V.I.S!');
+            }
+
+        }, false);
+    </script>
+    </div>
+    
+ <div class="logo">
+
+  <img src="jarvis.png" class="pulse" alt="J.A.R.V.I.S" width="460" height="460" />
+
+ </div>
+
+</body>
