@@ -44,7 +44,7 @@ Here's the list of sites and how to go to them:
 
 --Say Let's go-- (just say).
 
-(if you want to add any more sites, take the opportunity to learn a little more about the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a > and list in the list that a part, in the source code, you will see, in the "<body>" we will have a faded part, at the end of this we will have a faded part by the "//" sign, there the instructions and removal of the " signs " //" so that the code is valid)
+(if you want to add any more sites, take the opportunity to learn a little more about the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a > and list in the list that a part, in the source code, you will see, in the "body" we will have a faded part, at the end of this we will have a faded part by the "//" sign, there the instructions and removal of the " signs " //" so that the code is valid)
 
 //PORTUGUÊS//
 
@@ -88,6 +88,6 @@ Olá. Este é o Jarvis Assistant Supreme, eu criei-o para me ajudar nos dias da 
 
 --diga "hora de programar"-- (só fale).
 
-(caso queira adicionar mais algum site, aproveite para aprender um pouco mais sobre a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> e dê uma olhada no código fonte, você verá que, no "<body>", teremos uma lista na parte //resultados ::, no fim desta lista teremos uma parte desbotada pelo sinal "//", lá, apenas siga as instruções e remova os sinais "//" para que o código seja válido)
+(caso queira adicionar mais algum site, aproveite para aprender um pouco mais sobre a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> e dê uma olhada no código fonte, você verá que, no "body", teremos uma lista na parte //resultados ::, no fim desta lista teremos uma parte desbotada pelo sinal "//", lá, apenas siga as instruções e remova os sinais "//" para que o código seja válido)
 
 
