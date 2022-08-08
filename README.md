@@ -47,6 +47,8 @@ Here's the list of sites and how to get to them:
 (if you want to add any more sites, take the opportunity to learn a little more about the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a > and list in the list that a part, in the source code, you will see, in the "body" we will have a faded part, at the end of this we will have a faded part by the "//" sign, there the instructions and removal of the " signs " //" so that the code is valid)
 
   If you like, you can set Jarvis to start with your browser, just go to settings and startup, copy the archive's link and paste it there.
+  
+  The html archive is called J.A.R.V.I.S_SUPREME EN.hmtl, open it.
 
 //PORTUGUÊS//
 
@@ -100,3 +102,5 @@ Este é o Jarvis Assistant, eu criei-o para me ajudar nos dias da pandemia. Esta
 (caso queira adicionar mais algum site, aproveite para aprender um pouco mais sobre a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> e dê uma olhada no código fonte, você verá que, no "body", teremos uma lista na parte //resultados ::, no fim desta lista teremos uma parte desbotada pelo sinal "//", lá, apenas siga as instruções e remova os sinais "//" para que o código seja lido)
 
 Se quiser que o Jarvis inicialize com seu navegador, apenas vá até configurações, inicialização e cole o link do arquivo lá.
+
+O arquivo que possui o site é o J.A.R.V.I.S_SUPREME PT.html, abra esse.
