@@ -4,7 +4,7 @@
 
 Hi.
 This is Jarvis Assistant, I created it to help me in the pandemic days. I was tired of searching the sites i wanted to go so i decided to use my young programming skills to develop a simple assistant made just with html. Well, it was a year ago. Now I created a html.css.jv. assistant, still simple, but way much better. I used the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> to command with just a click and a voice command. I don't now how to create a localhost server so the assistant will be asking every time for the permission to use the mic. I hope you guys improve and enjoy it.
-Here's the list of sites and how to go to them:
+Here's the list of sites and how to get to them:
 
 -Classroom- say "open classroom";
 
@@ -42,9 +42,11 @@ Here's the list of sites and how to go to them:
 
 -Gmail- say "open Gmail";
 
---Say Let's go-- (just say).
+--Say "let's go"-- (just say).
 
 (if you want to add any more sites, take the opportunity to learn a little more about the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a > and list in the list that a part, in the source code, you will see, in the "body" we will have a faded part, at the end of this we will have a faded part by the "//" sign, there the instructions and removal of the " signs " //" so that the code is valid)
+
+  If you like, you can set Jarvis to start with your browser, just go to settings and startup, copy the archive's link and paste it there.
 
 //PORTUGUÊS//
 
@@ -86,10 +88,12 @@ Olá. Este é o Jarvis Assistant, eu criei-o para me ajudar nos dias da pandemia
 
 -Gmail- diga "abrir Gmail";
 
+-Redação Paraná- diga "abrir redação";
+
 -STOODI- diga "abrir curso para o ENEM";
 
 --diga "hora de programar"-- (só fale).
 
-(caso queira adicionar mais algum site, aproveite para aprender um pouco mais sobre a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> e dê uma olhada no código fonte, você verá que, no "body", teremos uma lista na parte //resultados ::, no fim desta lista teremos uma parte desbotada pelo sinal "//", lá, apenas siga as instruções e remova os sinais "//" para que o código seja válido)
+(caso queira adicionar mais algum site, aproveite para aprender um pouco mais sobre a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> e dê uma olhada no código fonte, você verá que, no "body", teremos uma lista na parte //resultados ::, no fim desta lista teremos uma parte desbotada pelo sinal "//", lá, apenas siga as instruções e remova os sinais "//" para que o código seja lido)
 
-
+Se quiser que o Jarvis inicialize com seu navegador, apenas vá até configurações, inicialização e cole o link do arquivo lá.
