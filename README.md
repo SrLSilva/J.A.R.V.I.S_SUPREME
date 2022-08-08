@@ -50,13 +50,18 @@ Here's the list of sites and how to get to them:
 
 //PORTUGUÊS//
 
-Olá. Este é o Jarvis Assistant, eu criei-o para me ajudar nos dias da pandemia. Estava cansado de procurar nos sites que queria ir, então decidi usar minhas humildes habilidades de programação para desenvolver um simples assistente feito apenas com html. Bem, isso foi há um ano atrás. Agora eu criei um assistente Jarvis html.css.JV., ainda simples, mas muito melhor. Usei a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> para acessar com apenas um clique e um comando de voz. Eu não sei como criar um servidor (localhost), então o assistente vai pedir sempre a permissão para usar o microfone. Espero que vocês melhorem e aproveitem. Aqui está a lista de sites e como ir até eles:
+Olá. 
+Este é o Jarvis Assistant, eu criei-o para me ajudar nos dias da pandemia. Estava cansado de procurar nos sites que queria ir, então decidi usar minhas humildes habilidades de programação para desenvolver um simples assistente feito apenas com html. Bem, isso foi há um ano atrás. Agora eu criei um Jarvis Assistant html.css.JV., ainda simples, mas muito melhor. Usei a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API"> Web Speech API</a> para acessar com apenas um clique e um comando de voz. Eu não sei como criar um servidor (localhost), então o assistente vai pedir sempre a permissão para usar o microfone. Espero que vocês melhorem e aproveitem. Aqui está a lista de sites e como ir até eles:
 
 -Classroom- diga "abrir classroom";
 
--Youtube- diga "abrir YouTube";
+-Redação Paraná- diga "abrir Redação Paraná";
 
 -Alura- diga "abrir Alura";
+
+-Youtube- diga "abrir YouTube";
+
+-Inglês Paraná- diga "abrir curso de inglês";
 
 -Scratch- diga "abrir Scratch";
 
@@ -88,9 +93,7 @@ Olá. Este é o Jarvis Assistant, eu criei-o para me ajudar nos dias da pandemia
 
 -Gmail- diga "abrir Gmail";
 
--Redação Paraná- diga "abrir redação";
-
--STOODI- diga "abrir curso para o ENEM";
+-STOODI- diga "abrir cursinho";
 
 --diga "hora de programar"-- (só fale).
 
